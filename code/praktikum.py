@@ -64,7 +64,6 @@ while True:
             print("="*78)
             i = 0
             for data in data_mahasiswa.items():
-                print(data)
                 i += 1
                 print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
                       .format(data[0], data[1][0], data[1][1], data[1][2], data[1][3], data[1][4], no=i))
