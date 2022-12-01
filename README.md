@@ -31,6 +31,8 @@ if user.lower() == 't':
 ```
 > Jika user meningput "t" yang artinya menambah data, maka user akan diberikan tampilan inputan seperti diatas. Inputan-inputan tersebut dimasukkan ke dalam _dictionary_ kosong dengan inputan user.
 
+![cari data](/img/10.png)
+
 ```python
 elif user.lower() == 'u':
         os.system("cls")
@@ -46,7 +48,14 @@ elif user.lower() == 'u':
         else:
             print(f"Nama {nama} tidak ditemukan")
 ```
-> Jika user menginput "u" yang artinya ubah data mahasiswa, maka user harus memasukkan nama yang diubahnya. Jika nama tersebut ada di dalam _dictionary_, maka selanjutnya mengubah data yang memang perlu diubah. Jika nama tersebut tidak ada di dalam dictionary, maka akan mengirimkan pesan bahwa nama tersebut tidak ditemukan.
+> Jika user menginput "u" yang artinya ubah data mahasiswa, maka user harus memasukkan nama yang diubahnya. Jika nama tersebut ada di dalam _dictionary_, maka selanjutnya mengubah data yang memang perlu diubah. 
+
+![cari data](/img/12.png)
+![cari data](/img/13.png)
+
+> Jika nama tersebut tidak ada di dalam dictionary, maka akan mengirimkan pesan bahwa nama tersebut tidak ditemukan.
+
+![cari data](/img/14.png)
 
 ```python
 elif user.lower() == 'h':
@@ -78,8 +87,11 @@ elif user.lower() == 'c':
             print(f"Nama {nama} Tidak Ditemukan")
 ```
 > Jika user menginputkan "c" yang artinya cari data, maka user diharuskan mengisi data nama yang ingin di cari, data yang di cari akan mengambil data yang sudah ditambahkan pada _dictionary_, lalu ditampilkan ke user. 
+
 ![cari data](/img/5.png)
+
 > Jika nama tersebut tidak ada pada data _dictionary_, maka akan menampilkan pesan nama tidak ditemukan.
+
 ![cari data](/img/4.png)
 
 ```python
@@ -108,8 +120,12 @@ elif user.lower() == 'l':
             print("="*78)
 ```
 > Jika user menginputkan "l" yang artinya lihat data, maka user akan diberikan tampilan daftar mahasiswa. Jika data tersebut sudah ditambahkan, maka data tersebut akan ditampilakn dengan memanggil tiap-tiap element yang sudah diinputkan. 
+
 ![cari data](/img/2.png)
+
 > Jika data sebelumnya belum ditambahkan, maka akan menampilkan tidak ada data.
+
+![cari data](/img/6.png)
 
 ```python
 elif user.lower() == 'k':
@@ -123,3 +139,5 @@ else:
         print("Pilih menu yang tersedia")
 ```
 > Jika user tidak menginputkan apapun di dalam program, maka akan menampilkan sebuah pesan "Pilih menu yang tersedia".
+
+![cari data](/img/7.png)
